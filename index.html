@@ -540,16 +540,19 @@
           </div>
           <!-- End Info Item -->
         </div>
-        <form action="forms/contact.php" method="post" class="php-email-form col-md-9 mx-auto" data-aos="fade-up" data-aos-delay="300">
+        <form action="https://script.google.com/macros/s/AKfycbz07ZLIUPxbcfWDQXj3QlzyhFGqJ9Q15fkBmp9aaWtHbMtHBLVSG0m1FonySWptlaav/exec" method="post" class="php-email-form col-md-9 mx-auto" >
           <div class="row gy-4">
             <div class="col-md-6">
               <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
             </div>
-            <div class="col-md-6 ">
+            <div class="col-md-6">
               <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
             </div>
-            <div class="col-md-12">
-              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            <div class="col-md-6">
+              <input type="text" name="contact" class="form-control" placeholder="Your Contact Number" required="">
+            </div>
+            <div class="col-md-6">
+              <input type="text" name="address" class="form-control" placeholder="Your Address" required="">
             </div>
             <div class="col-md-12">
               <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
@@ -559,6 +562,7 @@
             </div>
           </div>
         </form>
+        
         <!-- End Contact Form -->
       </div>
     </section>
